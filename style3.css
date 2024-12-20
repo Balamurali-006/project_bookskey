@@ -1,0 +1,118 @@
+
+.paragraph {
+    z-index: 2;
+    top: 20%;
+    left: 37%;
+    border: black solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(246, 91, 91);
+    position: fixed;
+    border-radius: 10%;
+    display: none;
+    width: 20%;
+    height: 60%;
+}
+
+    .createbutton{
+        background-color: black;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        color: azure;
+        top:0%;
+        position: absolute;
+        left:0%;
+        opacity: 0.8;
+        z-index: 1;
+        display: none;
+
+        
+    }
+    .summa{
+        width: 400px;
+        height:60px;
+        color: black;
+        border: 2px solid;
+        padding-right: 4px;
+        padding-left: 4px;
+        
+    }
+    input{
+        background-color:rgb(246, 91, 91); 
+        border: none;
+        border-bottom: solid;
+        padding: 5px 0;
+        
+    }
+    input::placeholder{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .button1{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: 38%;
+        margin-left: 92%;
+        background-color:rgb(246, 91, 91);
+        font-size: 40px;
+        color: black;
+    }
+
+    .ha{
+        background-color: rgb(246, 91, 91);
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 500;
+        color: black;
+        font: bolder;
+    }
+
+    .default1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: flex-start;
+        padding: 10px;
+    }
+    
+    .default {
+        margin-top: 5%;
+        background-color: rgb(246, 91, 91);
+        border: solid;
+        height: 300px; 
+        width: 200px; 
+        border-radius: 10%;
+        padding: 20px;
+        text-align: center;
+        display: inline-block;
+    }
+    
+
+
+    .default h2{
+        padding:5%; 
+        font-size: 20px;
+        padding-left: 20px;
+        text-underline-position: below;
+        text-transform: uppercase;
+     }
+
+     .default h3{
+        padding-left: 50%;
+        font-size: 17px;
+        text-decoration:double;
+     }
+     .default p{
+        padding: 10px;
+        text-align: center;
+     }
+
+
+
